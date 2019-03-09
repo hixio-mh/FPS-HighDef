@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8d2617fdabd3a04096b06a0d25832db, type: 3}
+  m_Name: SMG
+  m_EditorClassIdentifier: 
+  ammoType: 2
+  Automatic: 1
+  FireRate: 0.05
+  bulletHole: {fileID: 7349196473670283467, guid: 2217dc5b50146c04fa826092b03992a5,
+    type: 3}
+  isShotgunOrRocket: 0
+  shotArea: 0
+  fireButton: Fire1
+  offset: {x: 0, y: 0, z: 0}
+  Name: SMG
+  image: {fileID: 21300000, guid: 321efd7995e9cd54dbef9c06e1696429, type: 3}
+  fireSound: {fileID: 8300000, guid: 98c6a6474291ffb478fa8a15dec46e32, type: 3}
+  reloadSound: {fileID: 8300000, guid: 304f07909af5f1c45996f1f4290e0912, type: 3}
+  SwapInSound: {fileID: 8300000, guid: d34fac2f3d8b5d344986b3aef0bb0877, type: 3}
+  holdPosition: {x: -0.2, y: -0.3, z: 1}
+  holdRotation: {x: 0, y: 0, z: 0, w: 0}
+  timeInAir: 10
+  damagePerShot: 10
+  bulletSpeed: 200
+  reloadAmount: 50
+  fireParticle: {fileID: 1743301284569550, guid: ad2ab49d0a2a17148bd51c93d977bdbc,
+    type: 3}
+  reloadTime: 2.5
